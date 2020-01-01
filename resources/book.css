@@ -1,0 +1,60 @@
+@import url(/ar/resources/main.css);
+
+.book_preview_block {
+
+  vertical-align: top;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+
+}
+
+.book_cover {
+
+  height: 100vh;
+  object-fit: contain;
+  width: 20vw;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-left: 3vw;
+
+}
+
+.right_half {
+
+  display: inline-block;
+  width: 40vw;
+  vertical-align: middle;
+
+}
+
+.teaser {
+
+  text-align: center;
+  font-size: 0.8em;
+  color: var(--faded);
+  margin-top: -2em;
+
+}
+
+.no_margin {
+
+  margin-bottom: 0px !important;
+
+}
+
+@media only screen and (max-width: 980px) {
+
+  .book_cover { position: relative; width: 100%; padding: 0; margin: 0; margin-bottom: 4em; }
+
+  .right_half { width: 100%; }
+
+  .right_half p { font-size: 1.2em; text-align: left; margin-top: 2em; }
+
+  .book_preview_block { margin-bottom: 10vh; }
+
+  .teaser { display: none; }
+
+  .hideOnMobile { display: none; }
+
+}

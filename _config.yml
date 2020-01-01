@@ -1,0 +1,34 @@
+title: "منجالا الشريف"
+description: "Mangala El Charif's official website: a writer, philosopher and a creative"
+github_username: mangalacharif
+twitter: mangalacharif
+email: mangalacharif@yahoo.com
+baseurl: "/ar"
+url: "mangalacharif.github.io"
+
+plugins:
+  - jekyll-remote-theme
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+remote_theme: tareqdandachi/sandslate
+
+sass:
+  style: compressed
+
+highlighter: rouge
+
+right_aligned: true
+
+logo_font: 'Cairo'
+title_font: 'Cairo'
+content_font: 'Almarai'
+
+font_link_source: 'https://fonts.googleapis.com/css?family=Almarai:400,600|Cairo:400&display=swap&subset=arabic'
+
+header_pages:
+  - index.md
+  - knight_of_the_desert.md
+  - thesis.md
+  - events.md
