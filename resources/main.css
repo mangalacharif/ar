@@ -48,6 +48,14 @@ img.quote.large, .quote.large img {
   max-height: 100vh !important;
 }
 
+#content {
+
+  padding-top: 12vh;
+  left: 0;
+  right: auto;
+
+}
+
 #site_title {
 
   font-weight: 300;
@@ -72,5 +80,21 @@ h4 {
 
   font-size: 1.1em;
   margin-bottom: 0.3em;
+
+}
+
+footer, header { font-family: var(--title-font); }
+
+.right_half h2 {
+
+  margin-right: 0;
+  margin-top: -2.3em;
+
+}
+
+.multicols img, img.multicols {
+
+  margin: 5%;
+  margin-top: 0;
 
 }
