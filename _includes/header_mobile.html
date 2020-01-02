@@ -1,0 +1,16 @@
+<header class="mobile" style="color: #ccc">
+  <img style="display: inline-block; width: 16px; margin: 0px; margin-top: -10px; transform: translateY(4px); margin-right: 8px; margin-left: -16px;" width="16px" height="16px" src="https://fonts.gstatic.com/s/i/materialicons/language/v1/24px.svg">
+  <a id="fr" src="https://mangalacharif.github.io/fr/">FR</a> &nbsp; | &nbsp; <a id="ar" src="https://mangalacharif.github.io/ar/" style="color: black">AR</a> &nbsp; | &nbsp; <a id="en" src="https://mangalacharif.github.io/">EN</a>
+</header>
+
+<script>
+  document.getElementById("en").onclick = function(){ rewriteURL("") };
+  document.getElementById("fr").onclick = function(){ rewriteURL("/fr") };
+  document.getElementById("ar").onclick = function(){ rewriteURL("/ar") };
+
+  function rewriteURL(lang) {
+    window.location.href = window.location.href.replace("io/", "io"+lang+"/")
+  }
+</script>
+
+<style>.mobile #en, .mobile #ar, .mobile #fr { color: #ccc; cursor: pointer; } .mobile #en:hover, .mobile #ar:hover, .mobile #fr:hover { color: #333; }</style>
