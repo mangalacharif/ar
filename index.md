@@ -5,7 +5,7 @@ stylesheet: /ar/resources/main.css
 ---
 
 {:.page_title}
-#### كاتبة وباحثة أكاديمية
+#### كاتبة، باحثة أكاديمية ومبدعة
 # منجالا الشريف
 
 ![Picture of Mangala El Charif with a city background](/ar/resources/home.jpg)
