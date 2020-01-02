@@ -1,3 +1,16 @@
-<header>
-  Mangala El Charif
+<header style="color: #ccc">
+  <a id="fr">FR</a> &nbsp; | &nbsp; <a id="ar" style="color: black">AR</a> &nbsp; | &nbsp; <a id="en">EN</a>
+  <img style="display: inline-block; width: 24px; margin: 0px; margin-top: -10px; transform: translateY(6px); margin-left: 15px;" width="24px" height="24px" src="https://fonts.gstatic.com/s/i/materialicons/language/v1/24px.svg">
 </header>
+
+<script>
+  document.getElementById("en").onclick = function(){ rewriteURL("") };
+  document.getElementById("fr").onclick = function(){ rewriteURL("/fr") };
+  document.getElementById("ar").onclick = function(){ rewriteURL("/ar") };
+
+  function rewriteURL(lang) {
+    window.location.href = window.location.href.replace("/fr", lang)
+  }
+</script>
+
+<style>#en, #ar, #fr { color: #ccc; cursor: pointer } #en:hover, #ar:hover, #fr:hover { color: #333; }</style>
